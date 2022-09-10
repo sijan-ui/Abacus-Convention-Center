@@ -1,0 +1,19 @@
+.top-meanu h4{
+    font-size: 22px;
+}
+.top-meanu a{
+    font-size: 16px;
+}
+.slider button{
+    color: blue;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+@media  screen and (max-width: 576px) {
+    .slider button{
+        margin: 0;
+    }
+    .slider-img img{
+        height: 500px;
+    }
+}
