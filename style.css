@@ -50,6 +50,27 @@
     width: 546px;
     height: 364px;
 }
+footer{
+    background-color: black;
+    height: 280px;
+}
+footer p{
+    color: #D9DBE1;;
+    margin-top: 126px;
+    margin-left: 165px;
+}
+footer h4{
+    color: #D9DBE1;;
+}
+.logo-part{
+    margin-top: 65px;
+    margin-right: 165px;
+}
+.logo-part img{
+    width: 135px;
+    height: 40px;
+    margin-top: 16px;
+}
 @media  screen and (max-width: 576px) {
     .slider button{
         margin: 0;
@@ -59,5 +80,17 @@
     }
     .card{
         width: auto;
+    }
+    .question-part{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+@media  screen and (max-width:767px){
+    .responsive-image{
+        margin-left: 220px;
+    }
+    .all-item{
+        margin-left: 100px;
     }
 }
