@@ -46,6 +46,10 @@
     padding-top: 50px;
 
 }
+.people-image img{
+    width: 546px;
+    height: 364px;
+}
 @media  screen and (max-width: 576px) {
     .slider button{
         margin: 0;
